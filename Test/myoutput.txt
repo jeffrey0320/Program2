@@ -1,0 +1,204 @@
+						Database of Bank Accounts
+
+Name                       SSN      Account Number   Account Type      Balance
+Noel        Eaton       287481077       439665           Checking   $  4119.46
+Sylvia      Bennett     261340202       148717           Checking   $  8705.46
+Lincoln     Nichols     164663933       685344            Savings   $  4084.03
+Dana        Rich        453968735       910547           Checking   $    94.87
+Hillary     Sharp       985076584       800586                 CD   $  9856.28
+Aldo        Wu          103491404       598285           Checking   $   143.34
+Joaquin     Maldonado   382082923       463037            Savings   $ 12432.34
+India       Carter      188336825       136813                 CD   $ 24500.00
+Natalee     Marshall    510041535       763316                 CD   $ 43134.43
+Kayden      Obrien      672648174       900247            Savings   $   768.78
+Dwayne      Mayo        177130979       883012            Savings   $   124.35
+Ashtyn      Galvan      270591995       251901           Checking   $   215.97
+Aubree      Mckenzie    413975695       550259            Savings   $  1253.57
+Aliya       Cabrera     542183355       920805                 CD   $  6563.45
+Jeffrey     Frey        454668603       598265           Checking   $ 95436.67
+Marely      Dodson      123495983       972222           Checking   $    54.98
+Emiliano    Flores      831666439       320978           Checking   $     0.00
+Lincoln     Nichols     164663933       748344           Checking   $   423.43
+
+Transaction Requested: Balance Inquiry
+Account Number: 439665
+Current Balance: $4119.46
+
+Transaction Requested: Balance Inquiry
+Error: Account number 123456 does not exist
+
+Transaction Requested: Deposit
+Account Number: 439665
+Old Balance: $4119.46
+Amount to Deposit: $500.00
+New Balance: $4619.46
+
+Transaction Requested: Deposit
+Account Number: 910547
+Amount to Deposit: $-10.00
+Error: $-10.00 is an invalid amount
+
+Transaction Requested: Deposit
+Error: Account number 324253 does not exist
+
+Transaction Requested: Withdrawal
+Account Number: 598285
+Old Balance: $143.34
+Amount to Withdraw: $40.00
+New Balance: $103.34
+
+Transaction Requested: Withdrawal
+Account Number: 910547
+Current Balance: $94.87
+Amount to Withdraw: $-101.00
+Error: Can't withdraw an amount less than 0 or equal to 0
+
+Transaction Requested: Withdrawal
+Account Number: 148717
+Old Balance: $8705.46
+Amount to Withdraw: $8705.46
+New Balance: $0.00
+
+Transaction Requested: Withdrawal
+Error: Account number 547684 does not exist
+
+Transaction Requested: New Account
+Account number 543759 has been created
+Customer name: Manuel Julia
+SSN: 159807200
+Acctount type: Checking
+Balance: $0.00
+Opening Deposit: $0.00
+New Balance: $0.00
+
+Transaction Requested: New Account
+Account number 701172 has been created
+Customer name: Jessie Mcgee
+SSN: 423780709
+Acctount type: Savings
+Balance: $0.00
+Opening Deposit: $0.00
+New Balance: $0.00
+
+Transaction Requested: New Account
+Account number 233877 has been created
+Customer name: Terrence Kim
+SSN: 552174522
+Acctount type: Checking
+Balance: $0.00
+Opening Deposit: $0.00
+New Balance: $0.00
+
+Transaction Requested: New Account
+Error: Account number 920805 already exists
+
+Transaction Requested: Withdrawal
+Account Number: 543759
+Current Balance: $0.00
+Amount to Withdraw: $100.00
+Error: Insufficient Amount
+
+Transaction Requested: Deposit
+Account Number: 543759
+Old Balance: $0.00
+Amount to Deposit: $5000.00
+New Balance: $5000.00
+
+Transaction Requested: Deposit
+Account Number: 701172
+Old Balance: $0.00
+Amount to Deposit: $47.80
+New Balance: $47.80
+
+Transaction Requested: Withdrawal
+Account Number: 701172
+Old Balance: $47.80
+Amount to Withdraw: $30.00
+New Balance: $17.80
+
+Transaction Requested: Deposit
+Account Number: 233877
+Old Balance: $0.00
+Amount to Deposit: $450.00
+New Balance: $450.00
+
+Transaction Requested: Withdrawal
+Account Number: 233877
+Old Balance: $450.00
+Amount to Withdraw: $22.58
+New Balance: $427.42
+
+Transaction Requested: Account Info
+Name: Terrence Kim
+SSN: 552174522
+Account number: 233877
+Account Type: Checking
+Balance: $427.42
+
+Transaction Requested: Account Info
+Name: Dwayne Mayo
+SSN: 177130979
+Account number: 883012
+Account Type: Savings
+Balance: $124.35
+
+Transaction Requested: Delete Account
+Account number: 320978 has been deleted
+
+Transaction Requested: Delete Account
+Error: Account number 439665 has a balance of $4619.46 and cannot be deleted.
+Withdraw first then try again.
+
+Transaction Requested: Delete Account
+Error: Account number 136813 has a balance of $24500.00 and cannot be deleted.
+Withdraw first then try again.
+
+Transaction Requested: Withdrawal
+Account Number: 136813
+Old Balance: $24500.00
+Amount to Withdraw: $24500.00
+New Balance: $0.00
+
+Transaction Requested: Delete Account
+Account number: 136813 has been deleted
+
+Transaction Requested: Delete Account
+Error: Account number 745744 does not exist
+
+Transaction Requested: Account Info
+Name: Lincoln Nichols
+SSN: 164663933
+Account number: 685344
+Account Type: Savings
+Balance: $4084.03
+
+Transaction Requested: Account Info
+Name: Lincoln Nichols
+SSN: 164663933
+Account number: 748344
+Account Type: Checking
+Balance: $423.43
+
+						Database of Bank Accounts
+
+Name                       SSN      Account Number   Account Type      Balance
+Noel        Eaton       287481077       439665           Checking   $  4619.46
+Sylvia      Bennett     261340202       148717           Checking   $     0.00
+Lincoln     Nichols     164663933       685344            Savings   $  4084.03
+Dana        Rich        453968735       910547           Checking   $    94.87
+Hillary     Sharp       985076584       800586                 CD   $  9856.28
+Aldo        Wu          103491404       598285           Checking   $   103.34
+Joaquin     Maldonado   382082923       463037            Savings   $ 12432.34
+Jessie      Mcgee       423780709       701172            Savings   $    17.80
+Natalee     Marshall    510041535       763316                 CD   $ 43134.43
+Kayden      Obrien      672648174       900247            Savings   $   768.78
+Dwayne      Mayo        177130979       883012            Savings   $   124.35
+Ashtyn      Galvan      270591995       251901           Checking   $   215.97
+Aubree      Mckenzie    413975695       550259            Savings   $  1253.57
+Aliya       Cabrera     542183355       920805                 CD   $  6563.45
+Jeffrey     Frey        454668603       598265           Checking   $ 95436.67
+Marely      Dodson      123495983       972222           Checking   $    54.98
+Terrence    Kim         552174522       233877           Checking   $   427.42
+Lincoln     Nichols     164663933       748344           Checking   $   423.43
+Manuel      Julia       159807200       543759           Checking   $  5000.00
+
